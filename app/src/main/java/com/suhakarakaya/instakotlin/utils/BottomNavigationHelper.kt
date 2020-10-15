@@ -58,7 +58,6 @@ class BottomNavigationHelper {
                             R.id.ic_profile -> {
                                 val intent = Intent(context, ProfileActivity::class.java).addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION)
                                 context.startActivity(intent)
-
                                 return true
                             }
 
